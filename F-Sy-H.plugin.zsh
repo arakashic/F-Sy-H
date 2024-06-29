@@ -327,7 +327,7 @@ zmodload zsh/system 2>/dev/null
 
 autoload -Uz -- is-at-least \
   .fast-read-ini-file .fast-run-git-command \
-  .fast-make-targets .fast-run-command .fast-zts-read-all
+  .fast-run-command .fast-zts-read-all
 
 # Disabled: chroma/-vim.ch chroma/-which.ch
 autoload -Uz -- \
